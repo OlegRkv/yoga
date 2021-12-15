@@ -1,0 +1,38 @@
+.gallery {
+  padding-top: 85px;
+  padding-bottom: 70px;
+  background-image: url("../images/gallery-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  &__text {
+    max-width: 880px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  &__item {
+    max-width: 350px;
+    width: 100%;
+    padding-bottom: 35px;
+    background-color: #fff;
+    box-shadow: 11.437px 17.612px 23.28px 0.72px rgba(12, 13, 12, 0.1);
+  }
+
+  &__img {
+    margin-bottom: 40px;
+  }
+
+  &__item-title {
+    margin-bottom: 30px;
+  }
+}

@@ -1,7 +1,7 @@
 body {
   font-family: "OpenSans", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 21px;
   color: $color;
 }
 
@@ -21,4 +21,13 @@ body {
   padding: 20px 30px;
   border: none;
   background-color: #e6c8c3;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.text {
+  max-width: 540px;
+  margin-bottom: 90px;
+  line-height: 1.6;
 }

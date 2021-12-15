@@ -1,0 +1,38 @@
+.join {
+  padding-top: 125px;
+  padding-bottom: 135px;
+  background-image: url("../images/join-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__wrapper {
+    max-width: 565px;
+    margin-left: auto;
+  }
+
+  &__title {
+    position: relative;
+    font-size: 58px;
+    margin-bottom: 50px;
+    z-index: 1;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 304px;
+      height: 133px;
+      top: -20px;
+      left: -45px;
+      background-image: url("../images/icons/title-decor.png");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
+  }
+
+  &__text {
+    margin-bottom: 45px;
+  }
+}
