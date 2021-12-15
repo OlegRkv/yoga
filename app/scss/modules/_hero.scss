@@ -1,0 +1,23 @@
+.hero {
+  padding-top: 110px;
+  padding-bottom: 45px;
+  background-image: url("../images/hero-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__img {
+    margin-left: -60px;
+    margin-right: 150px;
+  }
+
+  &__text {
+    margin-bottom: 90px;
+  }
+}

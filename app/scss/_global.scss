@@ -1,0 +1,24 @@
+body {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: $color;
+}
+
+.container {
+  max-width: 1285px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 75px;
+}
+
+.button {
+  padding: 20px 30px;
+  border: none;
+  background-color: #e6c8c3;
+}

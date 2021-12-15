@@ -1,0 +1,15 @@
+.pregnant {
+  padding: 185px 0;
+  background-image: url("../images/pregnant-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__wrapper {
+    max-width: 630px;
+  }
+
+  &__text {
+    margin-bottom: 90px;
+  }
+}

@@ -1,0 +1,23 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  &__item{
+    &:not(:last-child) {
+      margin-right: 70px;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}
