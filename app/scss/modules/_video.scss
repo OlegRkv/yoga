@@ -1,0 +1,33 @@
+.video {
+  padding: 150px 0;
+  background-image: url("../images/video-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__box {
+    width: 630px;
+    height: 420px;
+    margin-right: 70px;
+    box-shadow: 12.856px 15.321px 43px 0px rgba(12, 13, 12, 0.59);
+  }
+
+  &__content {
+    max-width: 560px;
+  }
+
+  &__title {
+    margin-bottom: 50px;
+    font-size: 58px;
+  }
+
+  &__text {
+    margin-bottom: 50px;
+  }
+}

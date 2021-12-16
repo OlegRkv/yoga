@@ -5,6 +5,16 @@ body {
   color: $color;
 }
 
+a,
+input,
+button,
+textarea {
+  &:focus {
+    outline-style: solid;
+    outline-color: $color;
+  }
+}
+
 .container {
   max-width: 1285px;
   margin: 0 auto;
@@ -30,4 +40,41 @@ body {
   max-width: 540px;
   margin-bottom: 90px;
   line-height: 1.6;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  list-style: none;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 45px;
+    }
+  }
+}
+
+.form {
+  &__input {
+    display: block;
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    padding: 25px 40px;
+    border: 2px solid #b0b0b0;
+    background-color: #efefef;
+    color: inherit;
+  }
+
+  &__textarea {
+    height: 150px;
+    margin-bottom: 55px;
+    resize: none;
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto;
+  }
 }

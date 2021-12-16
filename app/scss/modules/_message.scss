@@ -1,0 +1,19 @@
+.message {
+  padding-top: 80px;
+  padding-bottom: 65px;
+  background-image: url("../images/message-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__text {
+    max-width: 879px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+}
