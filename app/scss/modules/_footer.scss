@@ -1,0 +1,55 @@
+.footer {
+  padding: 65px 0;
+  background-color: #484f5b;
+  color: #fff;
+
+  &__container {
+    max-width: 1090px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__company {
+    margin-bottom: 40px;
+  }
+
+  &__address {
+    line-height: 1.6;
+  }
+
+  &__nav {
+    min-width: 460px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav-list {
+    list-style: none;
+  }
+
+  &__nav-item {
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__logo {
+    display: block;
+    margin-bottom: 35px;
+  }
+
+  &__copy {
+    display: block;
+    margin-bottom: 35px;
+  }
+
+  .social__item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
