@@ -15,10 +15,18 @@ textarea {
   }
 }
 
+.lock-scroll {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1285px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.logo {
+  z-index: 1;
 }
 
 .title {
