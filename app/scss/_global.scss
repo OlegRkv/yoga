@@ -15,6 +15,11 @@ textarea {
   }
 }
 
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
 .lock-scroll {
   overflow: hidden;
 }
@@ -73,12 +78,20 @@ textarea {
     border: 2px solid #b0b0b0;
     background-color: #efefef;
     color: inherit;
+
+    @media (max-width: 576px) {
+      padding: 18px 40px;
+    }
   }
 
   &__textarea {
     height: 150px;
     margin-bottom: 55px;
     resize: none;
+
+    @media (max-width: 576px) {
+      height: 100px;
+    }
   }
 
   &__button {

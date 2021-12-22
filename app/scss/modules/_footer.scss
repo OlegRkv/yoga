@@ -10,6 +10,39 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    @media (max-width: 1200px) {
+      display: grid;
+      grid-template-areas: "footer__nav footer__contacts"
+                            "footer__nav footer__contacts"
+                            "footer__box footer__box";
+      grid-template-columns: 1fr;
+      gap: 50px;
+    }
+
+    @media (max-width: 768px) {
+      grid-template-areas: 
+      "footer__nav"
+      "footer__contacts"
+      "footer__box";
+    }
+
+    @media (max-width: 576px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__contacts {
+    @media (max-width: 1200px) {
+      grid-area: footer__contacts;
+    }
+
+    @media (max-width: 768px) {
+      text-align: center;
+    }
   }
 
   &__company {
@@ -25,15 +58,43 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 1200px) {
+      grid-area: footer__nav;
+    }
+
+    @media (max-width: 576px) {
+      min-width: 0;
+      width: 100%;
+      flex-wrap: wrap;
+    }
   }
 
   &__nav-list {
     list-style: none;
+
+    @media (max-width: 576px) {
+      margin-bottom: 30px;
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
   }
 
   &__nav-item {
     &:not(:last-child) {
       margin-bottom: 15px;
+    }
+  }
+
+  &__box {
+    @media (max-width: 1200px) {
+      grid-area: footer__box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
     }
   }
 
