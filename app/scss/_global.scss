@@ -15,6 +15,10 @@ textarea {
   }
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -47,6 +51,11 @@ textarea {
   font-weight: 700;
   text-transform: uppercase;
   color: inherit;
+  transition: box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: -6px -6px 30px -5px rgb(179, 123, 114) inset;
+  }
 }
 
 .text {
@@ -64,6 +73,12 @@ textarea {
     &:not(:last-child) {
       margin-right: 45px;
     }
+
+    &:hover {
+      transform: scale(1.2, 1.2);
+    }
+
+    transition: transform 0.3s;
   }
 }
 
