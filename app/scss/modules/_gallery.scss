@@ -51,4 +51,9 @@
   &__item-title {
     margin-bottom: 30px;
   }
+
+  &__item-text {
+    max-width: 255px;
+    margin: 0 auto;
+  }
 }
